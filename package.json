@@ -1,0 +1,30 @@
+{
+  "name": "digital-signage",
+  "version": "1.0.0",
+  "description": "Digital Signage System with Express and Angular based on socket.IO",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm run test",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jocstech/Digital-Signage.git"
+  },
+  "keywords": [
+    "Digital",
+    "Signage",
+    "Express",
+    "Angular"
+  ],
+  "author": "Jocs",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jocstech/Digital-Signage/issues"
+  },
+  "homepage": "https://github.com/jocstech/Digital-Signage#readme",
+  "dependencies": {
+    "express": "^4.15.2",
+    "socket.io": "^1.7.3"
+  }
+}
