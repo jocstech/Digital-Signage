@@ -4,8 +4,10 @@
   "description": "Digital Signage System with Express and Angular based on socket.IO",
   "main": "index.js",
   "scripts": {
-    "test": "npm run test",
-    "start": "node index.js"
+    "test": "npm test.js",
+    "install": "npm install",
+    "start": "npm index.js",
+    "renew": "npm install && pm2 start index.js --watch"
   },
   "repository": {
     "type": "git",
@@ -24,7 +26,7 @@
   },
   "homepage": "https://github.com/jocstech/Digital-Signage#readme",
   "dependencies": {
-    "express": "^4.15.2",
-    "socket.io": "^1.7.3"
+    "express": "^4.16.3",
+    "socket.io": "^2.1.0"
   }
 }
